@@ -1,0 +1,101 @@
+/* register */
+
+.register {
+    max-width: 500px;
+}
+
+.register__title {
+    position: relative;
+    padding-bottom: 12px;
+    text-transform: uppercase;
+    color: #01567f;
+    text-align: center;
+    font-size: 2.6rem;
+    font-weight: 500;
+}
+
+.register__title::before {
+    content: "";
+    display: block;
+    position: absolute;
+    border-bottom: #c8d3d8 4px solid;
+    width: 20%;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.register__title::after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-bottom: #01567f 4px solid;
+    width: 7%;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.register__login {
+    padding-top: 20px;
+    color: #333e44;
+    text-align: center;
+}
+
+.register__login-link {
+    text-decoration: none;
+    color: #01567f;
+}
+
+.register__form input {
+    font-size: 1.4rem;
+    color: #333;
+}
+
+.register__form input::placeholder {
+    font-size: 1.4rem;
+    color: #333;
+}
+
+.register__event {
+    text-align: center;
+}
+
+.register__btn {
+    background-color: #01567f;
+    width: 100%;
+    text-align: center;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: white !important;
+}
+
+
+/* login*/
+
+.login__direct {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.login__direct-link {
+    text-decoration: none;
+    color: #333;
+}
+
+.login__direct-link:hover {
+    color: #01567f;
+}
+
+
+/* forgot password */
+
+.forgot-password__form {
+    display: none;
+}
+
+.event-form-forgot-password:checked~.forgot-password__form {
+    display: block;
+}

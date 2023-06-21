@@ -1,0 +1,24 @@
+.breadcrumb-css__background {
+    background: #f5f5f5;
+}
+
+.breadcrumb-css__wrap {
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.breadcrumb-css__item {
+    padding: 15px;
+}
+
+.breadcrumb-css__item-link {
+    color: #01567F;
+}
+
+.breadcrumb-css__item-link:hover {
+    color: #fcaf17;
+}
+
+.breadcrumb-css__item.breadcrumb-css__item--active {
+    color: #fcaf17;
+}

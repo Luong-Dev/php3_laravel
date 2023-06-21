@@ -1,0 +1,32 @@
+/* .header-cart__not-product {
+    display: block;
+    position: relative;
+    top: 0;
+    right: 0;
+    width: 100%;
+    background-color: var(--white);
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.header-cart__not-product--cart.header-cart__not-product::before {
+    display: none;
+}
+
+.header-cart__have-product--cart.header-cart__have-product {
+    display: block;
+    position: relative;
+    top: 0;
+    right: 0;
+    width: 100%;
+    background-color: var(--white);
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.header-cart__have-product--cart.header-cart__have-product::before {
+    display: none;
+} */
+
+
+/* check xem sao lại vỡ */

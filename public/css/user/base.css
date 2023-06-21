@@ -1,0 +1,192 @@
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --black: #000;
+    /* px */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+html {
+    /* thường trình duyệt mặc định cho thẻ chứa html font-size 100% là 16px*/
+    /* font-size: 100%; là 16px */
+    font-size: 62.5%;
+    /* là 10px */
+    /* line-height: 1.6 rem; */
+    /* letter-spacing: 0.3px; */
+}
+
+
+/* container - cha */
+
+
+/* full màn hình */
+
+.grid-fluid {
+    display: grid;
+    width: 100%;
+    padding: 0;
+    /* grid-template-columns: repeat(12, 1fr); */
+}
+
+
+/* grid-wide tương đương container */
+
+.grid-wide {
+    display: grid;
+    max-width: 1260px;
+    margin: 0 auto;
+    /* grid-template-columns: repeat(12, 1fr); */
+}
+
+.grid-col-4 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+
+/* margin */
+
+.mt-16 {
+    margin-top: 16px;
+}
+
+.mt-24 {
+    margin-top: 24px;
+}
+
+
+/* row - hàng*/
+
+
+/* gap - khoảng cách giữa các hàng/cột*/
+
+
+/* color */
+
+
+/* btn */
+
+
+/* btn */
+
+.btn {
+    padding: 10px 20px;
+    text-align: left;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    color: var(--white);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/* boder */
+
+
+/* form */
+
+.form {}
+
+.form-control {
+    border: 1px solid var(--borderColor);
+    border-radius: 5px;
+    outline: none;
+    padding: 10px 0;
+    padding-left: 25px;
+}
+
+.form-control::placeholder {
+    color: #333e44;
+    font-weight: 400;
+    opacity: 0.8;
+}
+
+
+/* margin */
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mt-15 {
+    margin-top: 15px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mt-25 {
+    margin-top: 25px;
+}
+
+.pl-30 {
+    padding-left: 30px;
+}
+
+.pb-40 {
+    padding-bottom: 40px;
+}
+
+
+/* đặt lại chiều rộng cho các thiết bị, margin cho các thiết bị to hơn, mobile phải để width 100% */
+
+
+/* >tablet */
+
+@media (min-width: 740px) {}
+
+
+/* tab - pc độ phân giải thấp */
+
+@media (min-width: 740px) and (max-width:1023px) {
+    .grid-wide {
+        width: 644px;
+    }
+}
+
+
+/* pc độ phân giải thấp trở lên */
+
+@media (min-width: 1113px) {}
+
+
+/* >pc độ phân giải thấp <truyền thống*/
+
+@media (min-width: 1024px) and (max-width:1239px) {
+    .grid-wide {
+        width: 984px;
+    }
+}
+
+
+/* viết mới */
